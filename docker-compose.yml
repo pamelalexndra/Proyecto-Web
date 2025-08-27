@@ -1,0 +1,26 @@
+version: '3.8'
+
+services: 
+  sqlserver:
+  image:
+  environment:
+    SA_PASSWORD:
+    ACCEPT_EULA:
+  ports:
+  volumes:
+  newtorks:
+
+backend:
+  build: ./backend
+  ports:
+
+frontend: 
+  build: ./frontend
+  ports:
+
+volumes: 
+  sqlserver_data:
+
+networks:
+  app-network:
+    driver: bridge

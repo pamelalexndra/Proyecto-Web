@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "description": "Frontend para el catálogo de emprendedores",
+  "dependencies": {
+
+  },
+  "scripts": {
+
+  },
+  "browserlist": {
+    "production": [
+
+    ],
+    "development": [
+      
+    ]
+  }
+}

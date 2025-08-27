@@ -1,0 +1,6 @@
+# Dependencias
+node_modules/
+*/node_modules/
+
+# Entornos de desarrollo
+.env
