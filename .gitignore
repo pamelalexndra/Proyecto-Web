@@ -4,3 +4,10 @@ node_modules/
 
 # Entornos de desarrollo
 .env
+.env.local
+
+# Logs
+
+# IDE
+.vscode/
+.idea/
