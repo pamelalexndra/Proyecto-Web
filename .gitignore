@@ -1,13 +1,28 @@
-# Dependencias
+# Dependencies
 node_modules/
-*/node_modules/
+npm-debug.log*
 
-# Entornos de desarrollo
+# Environment variables
 .env
 .env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+postgres_data/
 
 # Logs
+logs
+*.log
+
+# Docker
+.docker/
 
 # IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
